@@ -41,9 +41,9 @@ int x_Led; //karakter x tengely pozicioja
 int y_Led;
 LedControl lc = LedControl(DIN, CLK, CS, 0);
 
-const int buzzer = 30;
+const int buzzer = 6;
 
-const int gomb = 50;
+const int gomb = 8;
 bool lenyomva;
 
 int nehezsegi_szint;
